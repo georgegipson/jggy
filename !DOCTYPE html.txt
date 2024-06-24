@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARIS Réseaux</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ARIS Réseaux</h1>
+        <p>Experts en câblage informatique et réseaux de télécommunication</p>
+        <p>06 22 92 07 07 | <a href="mailto:juliette@aris-reseaux.fr">juliette@aris-reseaux.fr</a></p>
+        <p>14 Rue Jean Jaurès, 54320 Maxéville</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#prestations">Prestations</a></li>
+            <li><a href="#realisations">Réalisations</a></li>
+            <li><a href="#qualite">Qualité</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="mission">
+        <h2>Notre Mission</h2>
+        <p>Nous sommes le partenaire privilégié dans l'aménagement ou la refonte de vos réseaux informatiques...</p>
+    </section>
+
+    <section id="prestations">
+        <h2>Nos Prestations</h2>
+        <ul>
+            <li>Audit câblage</li>
+            <li>Câblage cuivre</li>
+            <li>Câblage fibre optique</li>
+            <li>Sécurité</li>
+            <li>Autres technologies</li>
+            <li>Câblage téléphonique</li>
+        </ul>
+    </section>
+
+    <section id="realisations">
+        <h2>Quelques exemples de nos réalisations</h2>
+        <div class="realisation">
+            <h3>Avant</h3>
+            <img src="avant.jpg" alt="Projet avant">
+        </div>
+        <div class="realisation">
+            <h3>Après</h3>
+            <img src="apres.jpg" alt="Projet après">
+        </div>
+    </section>
+
+    <section id="qualite">
+        <h2>Notre Charte Qualité</h2>
+        <p>Une solution étudiée, spécifique et adaptée à vos besoins...</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ARIS Réseaux. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
